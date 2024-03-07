@@ -50,15 +50,43 @@ body {
 	text-align: center;
 }
 
-h1.main-title {
-	font-size: 800%;
-	margin-bottom: 1%;
+/*For phone*/
+@media (max-width: 600px) {
+	h1.main-title {
+		font-size: 400%;
+		margin-bottom: 1%;
+		margin-right: 0%;
+		margin-left: 0%;
+	}
+
+	p.description {
+		line-height: 1.4;
+		margin-left: 15%;
+		margin-right: 15%;
+		margin-bottom: 0%;
+		text-justify: inter-word;
+		font-size: 60%;
+	}
+
+	footer {
+		font-size: 45%;
+	}
+
 }
 
-p.description {
-	line-height: 1.4;
-	margin-left: 30%;
-	margin-right: 30%;
-	margin-bottom: 0%;
-	text-justify: inter-word;
+/*For Desktop*/
+@media (min-width: 601px) {
+	h1.main-title {
+		font-size: 800%;
+		margin-bottom: 1%;
+	}
+
+	p.description {
+		line-height: 1.4;
+		margin-left: 30%;
+		margin-right: 30%;
+		margin-bottom: 0%;
+		text-justify: inter-word;
+	}
+
 }
