@@ -50,6 +50,130 @@ body {
 	text-align: center;
 }
 
+
+/*For Desktop*/
+@media (min-width: 100px) {
+	h1.main-title {
+		font-size: 800%;
+		margin-bottom: 1%;
+		margin-top: 0%;
+		background: #555555;
+		padding-top: 2%;
+		padding-bottom: 2%;
+		color: #EEEEEE;
+	}
+
+	p.description {
+		line-height: 1.6;
+		margin-left: 25%;
+		margin-right: 25%;
+		margin-bottom: 0%;
+		max-width: auto;
+		text-align: justify;
+		text-align-last: center;
+	}
+
+	table {
+		border: 2px solid;
+		border-collapse: collapse;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+	}
+
+	td.issue-image {
+		border: 1px solid;
+		width: 25%;
+	}
+
+	table p.issue-info {
+		font-size: 80%;
+		margin: 1%;
+		text-align: left;
+	}
+
+	table p.issue-description {
+		font-size: 70%;
+		max-width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		line-height: 1.6;
+		text-align: justify;
+		text-align-last: center;
+	}
+
+	hr {
+		border-color: black;
+		margin: 0%;
+		padding: 0%;
+	}
+}
+
+/*For tablet*/
+@media (min-width: 600px) and (max-width: 1000px) {
+	h1.main-title {
+		font-size: 500%;
+		margin-bottom: 1%;
+		margin-right: 0%;
+		margin-left: 0%;
+		margin-top: 0%;
+		background: #555555;
+		padding-top: 2%;
+		padding-bottom: 2%;
+		color: #EEEEEE;
+	}
+
+	p.description {
+		line-height: 1.6;
+		margin-left: 15%;
+		margin-right: 15%;
+		margin-bottom: 0%;
+		font-size: 60%;
+		max-width: 80%;
+		text-align: justify;
+		text-align-last: center;
+	}
+
+	footer {
+		font-size: 45%;
+	}
+
+	table {
+		border: 1px solid;
+		border-collapse: collapse;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	td.issue-image {
+		border: 1px solid;
+		width: 25%;
+	}
+
+	table p.issue-info {
+		font-size: 80%;
+		margin: 1%;
+		text-align: left;
+	}
+
+	table p.issue-description {
+		font-size: 70%;
+		max-width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		line-height: 1.6;
+		text-align: justify;
+		text-align-last: center;
+	}
+
+	hr {
+		border-color: black;
+		margin: 0%;
+		padding: 0%;
+	}
+}
+
+
 /*For phone*/
 @media (max-width: 600px) {
 	h1.main-title {
@@ -57,36 +181,61 @@ body {
 		margin-bottom: 1%;
 		margin-right: 0%;
 		margin-left: 0%;
+		margin-top: 0%;
+		background: #555555;
+		padding-top: 2%;
+		padding-bottom: 2%;
+		color: #EEEEEE;
 	}
 
 	p.description {
-		line-height: 1.4;
-		margin-left: 15%;
-		margin-right: 15%;
+		line-height: 1.6;
+		margin-left: 10%;
+		margin-right: 10%;
 		margin-bottom: 0%;
-		text-justify: inter-word;
 		font-size: 60%;
+		max-width: 80%;
+		text-align: justify;
+		text-align-last: center;
 	}
 
 	footer {
 		font-size: 45%;
 	}
 
-}
-
-/*For Desktop*/
-@media (min-width: 601px) {
-	h1.main-title {
-		font-size: 800%;
-		margin-bottom: 1%;
+	table {
+		border: 1px solid;
+		border-collapse: collapse;
+		margin-left: auto;
+		margin-right: auto;
+		width: 80%;
 	}
 
-	p.description {
-		line-height: 1.4;
-		margin-left: 30%;
-		margin-right: 30%;
-		margin-bottom: 0%;
-		text-justify: inter-word;
+	td.issue-image {
+		border: 1px solid;
+		width: 25%;
+	}
+
+	table p.issue-info {
+		font-size: 80%;
+		margin: 1%;
+		text-align: left;
+	}
+
+	table p.issue-description {
+		font-size: 60%;
+		max-width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		line-height: 1.6;
+		text-align: justify;
+		text-align-last: center;
+	}
+
+	hr {
+		border-color: black;
+		margin: 0%;
+		padding: 0%;
 	}
 
 }
